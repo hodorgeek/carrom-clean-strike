@@ -19,6 +19,4 @@ public interface CarromGame {
     Board getBoard();
 
     Player getPlayerOnStrike();
-
-    void setPlayerOnStrike(Player player);
 }

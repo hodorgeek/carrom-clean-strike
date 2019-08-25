@@ -70,7 +70,7 @@ Player 1 won the game. Final Score: 15-11
 - To execute unit test(junit5) use: ```./gradlew test```
 
 ## Game Simulation Test:
-- It has written as junit only * `Game Simulation Test` - [see here](src/test/java/com/hodorgeek/carrom/CleanStrikeGameSimulationTest.java)
+- It has written as junit only `Game Simulation Test` - [see here](src/test/java/com/hodorgeek/carrom/CleanStrikeGameSimulationTest.java)
  
 ## Building and running application
  Please note: If you're on Windows, use `gradlew.bat` instead of `./gradlew` script

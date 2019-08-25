@@ -102,11 +102,6 @@ public class CleanStrikeCarromGame implements CarromGame {
     }
 
     @Override
-    public void setPlayerOnStrike(Player playerOnStrike) {
-        this.playerOnStrike = playerOnStrike;
-    }
-
-    @Override
     public Board getBoard() {
         return board;
     }
