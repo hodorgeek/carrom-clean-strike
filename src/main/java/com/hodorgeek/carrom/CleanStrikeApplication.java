@@ -8,14 +8,11 @@ import com.hodorgeek.carrom.helper.InputValidator;
 import com.hodorgeek.carrom.piece.Striker;
 import lombok.extern.slf4j.Slf4j;
 
-import java.util.LinkedHashMap;
-import java.util.Map;
 import java.util.Scanner;
-
-import static com.hodorgeek.carrom.piece.Striker.StrikeMe.*;
 
 @Slf4j
 public class CleanStrikeApplication {
+
     private static final Scanner scanner = new Scanner(System.in);
     public static void main(String[] args) {
         CarromGame game = new CleanStrikeCarromGame();

@@ -1,13 +1,12 @@
 package com.hodorgeek.carrom.game;
 
 import com.hodorgeek.carrom.board.Board;
+import com.hodorgeek.carrom.board.CleanStrikeCarromBoard;
 import com.hodorgeek.carrom.piece.Strike;
 import com.hodorgeek.carrom.piece.StrikeResult;
-import com.hodorgeek.carrom.piece.Striker;
 import com.hodorgeek.carrom.player.Player;
 import lombok.Getter;
 import lombok.Setter;
-import com.hodorgeek.carrom.board.CleanStrikeCarromBoard;
 import lombok.extern.slf4j.Slf4j;
 
 @Getter

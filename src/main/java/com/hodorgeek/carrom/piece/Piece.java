@@ -1,6 +1,5 @@
 package com.hodorgeek.carrom.piece;
 
-import jdk.nashorn.internal.objects.annotations.Setter;
 import lombok.Getter;
 
 @Getter
