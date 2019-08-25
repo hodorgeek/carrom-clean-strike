@@ -92,9 +92,9 @@ To generate fat/uber jar file with all dependencies, execute:
 ```
 ./gradlew shadowJar
 ```
-Assuming you have executed command above, to run server as a standalone fat jar, execute:
+Assuming you have executed command above, to run game as a standalone fat jar, execute:
 
 ```
  java -jar build/libs/carrom-clean-strike-1.0-SNAPSHOT.jar
 ```
-The above command will start the application as command line menu driven game client
+The above command will start the game as command line menu driven application.
