@@ -5,7 +5,7 @@ A Carrom - clean strike game
 
 ## Problem Statement
 
-A new game in carrom-board called Clean Strike is played by 2 players with multiple turn s. A
+A new game in carrom-board called Clean Strike is played by 2 players with multiple turns. A
 turn has a player attempting to strike a coin with the striker. Players alternate in taking turns.
 The game is described as follows:
 - There are 9 black coins, a red coin and a striker on the carrom-board
@@ -57,3 +57,44 @@ Player 2: Choose an outcome from the list below
 .
 Player 1 won the game. Final Score: 15-11
 ```
+
+
+## Technology stack
+- Java 8
+- [Gradle](https://docs.gradle.org)
+- [Lombok](https://projectlombok.org)
+- [Slf4J](https://www.slf4j.org/)
+- [JUnit 5](https://junit.org/junit5/)
+
+## Unit Tests
+- To execute unit test(junit5) use: ```./gradlew test```
+
+## Game Simulation Test:
+- It has written as junit only * `Game Simulation Test` - [see here](src/test/java/com/hodorgeek/carrom/CleanStrikeGameSimulationTest.java)
+ 
+## Building and running application
+ Please note: If you're on Windows, use `gradlew.bat` instead of `./gradlew` script
+   
+   To build application, execute:
+   
+   ```
+   ./gradlew build
+   ```
+   To run application execute:
+   
+   ```
+   ./gradlew run
+   ```
+### Fat jar
+
+To generate fat/uber jar file with all dependencies, execute:
+
+```
+./gradlew shadowJar
+```
+Assuming you have executed command above, to run server as a standalone fat jar, execute:
+
+```
+ java -jar build/libs/carrom-clean-strike-1.0-SNAPSHOT.jar
+```
+The above command will start the application as command line menu driven game client

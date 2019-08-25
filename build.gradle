@@ -9,7 +9,7 @@ plugins {
 group 'carrom-game'
 version '1.0-SNAPSHOT'
 sourceCompatibility = 1.8
-mainClassName = 'com.hodorgeek.cleanstrike.CarromCleanStrikeGame'
+mainClassName = 'com.hodorgeek.carrom.CleanStrikeApplication'
 
 repositories {
     mavenCentral()
@@ -42,6 +42,7 @@ dependencies {
     implementation 'org.slf4j:slf4j-simple:1.7.25'
 
     testImplementation 'org.junit.jupiter:junit-jupiter:5.5.1'
+    testImplementation 'org.junit.platform:junit-platform-launcher:1.5.1'
 }
 
 
