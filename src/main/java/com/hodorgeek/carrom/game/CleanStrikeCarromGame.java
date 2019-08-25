@@ -42,7 +42,7 @@ public class CleanStrikeCarromGame implements CarromGame {
             playerTwo.resetStriker();
         }
         System.out.println("------------------------------------------------------------");
-        System.out.println("Strike Swapped to - " + playerOnStrike.getName());
+        System.out.println("Striker assigned to - " + playerOnStrike.getName());
         System.out.println();
     }
 
@@ -67,8 +67,8 @@ public class CleanStrikeCarromGame implements CarromGame {
         } else {
             System.out.println("Game is Drawn, [Player 1 Points: " + playerOne.getPoint() + ", Player 2 Points: " + playerTwo.getPoint() + "]");
         }
-        log.info("Player one strikes played:{}", playerOne.getStrikes());
-        log.info("Player two strikes played:{}", playerTwo.getStrikes());
+        log.debug("Player one strikes played:{}", playerOne.getStrikes());
+        log.debug("Player two strikes played:{}", playerTwo.getStrikes());
     }
 
     @Override

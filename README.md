@@ -80,11 +80,7 @@ Player 1 won the game. Final Score: 15-11
    ```
    ./gradlew build
    ```
-   To run application execute:
-   
-   ```
-   ./gradlew run
-   ```
+  
 ### Fat jar
 
 To generate fat/uber jar file with all dependencies, execute:
@@ -92,9 +88,10 @@ To generate fat/uber jar file with all dependencies, execute:
 ```
 ./gradlew shadowJar
 ```
-Assuming you have executed command above, to run game as a standalone fat jar, execute:
+
+Assuming you have executed command above, to run game as a standalone application, execute:
 
 ```
- java -jar build/libs/carrom-clean-strike-1.0-SNAPSHOT.jar
+ java -jar build/libs/carrom-clean-strike-1.0.jar
 ```
 The above command will start the game as command line menu driven application.

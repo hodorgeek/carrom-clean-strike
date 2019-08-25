@@ -30,7 +30,7 @@ sourceSets {
 }
 
 shadowJar {
-    baseName = 'carrom-game-clean-strike'
+    baseName = 'carrom-clean-strike'
     classifier = null
     version = 1.0
 }
@@ -57,5 +57,13 @@ test {
     useJUnitPlatform()
     testLogging {
         events "passed", "skipped", "failed"
+    }
+}
+
+jar {
+    manifest {
+        attributes(
+                'Main-Class': mainClassName
+        )
     }
 }
